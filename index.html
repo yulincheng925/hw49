@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>臺中市景點推薦資訊網</title>
 	<style>
 		#container { margin:0 auto; width:1024px;}
 		td{ text-align: center;padding: 10px;}
@@ -13,12 +13,47 @@
 		.font2{font-size: 30px;}
 		.img_rounded:hover{rotate: -5deg;opacity: 70%}
 		.font2:hover{background-color: black;color:white;}
+
+		.navbar {
+		  overflow: hidden;
+		  background-color: #333;
+		  position: fixed;
+		  top: 0;
+		  width: 100%;
+		}
+
+		.navbar a {
+		  float: left;
+		  display: block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		}
+
+		.navbar a:hover {
+		  background: #ddd;
+		  color: black;
+		}
 	</style>
 </head>
 <body>
+	<div class="navbar">
+  		<a href="#s0">回首頁</a>
+  		<a href="#s1">台中國家歌劇院</a>
+  		<a href="#s2">台中州廳</a>
+  		<a href="#s3">審計新村</a>
+	</div>
+   
+    <div id="s0"></div>
+
+    <br>
+    <br>
+
 	<div id="container">
 
-  <table >
+  		<table >
 
 	  		<tr>
 	  			<td colspan="2">
@@ -31,52 +66,56 @@
 	  				<font class="font2">臺中市</font><br>
 						臺中市，通稱臺中，簡稱「中」，為中華民國直轄市，臺灣六都之一，也是中臺灣唯一的直轄市。周邊與臺灣省的六個縣相鄰，北鄰苗栗縣、新竹縣，南鄰彰化縣、南投縣，東隔中央山脈與花蓮縣相鄰，東北以中央山脈和雪山山脈毗鄰宜蘭縣，西臨臺灣海峽。
 	  			</td>
-  		</tr>
-  		<tr>
-				<td>
-					<img class="img_rounded" src="01.jpeg">
-				</td>
-  			<td>
+	  		</tr>
+	  		<tr>
+					<td>
+						<img id="s1" class="img_rounded" src="01.jpeg">
+					</td>
+	  			<td>
 
-  			<font class="font2">台中國家歌劇院</font><br>
-				台中國家歌劇院位於台中市西屯區，是極具特色的大型公有展演空間，由日本建築師伊東豊雄設計，以人類最原始的「洞窟」、「地穴」的概念設計成世界獨一無二的美聲涵洞曲牆建築，歷時五年時間完成、耗資43.6億元，終在2014年11月23日落成啟用，內部規劃有大劇院、中劇院及小型實驗劇場，共可容納約三千餘人。
-				圖：台中國家歌劇院白天景色
+	  			<font class="font2">台中國家歌劇院</font><br>
+					台中國家歌劇院位於台中市西屯區，是極具特色的大型公有展演空間，由日本建築師伊東豊雄設計，以人類最原始的「洞窟」、「地穴」的概念設計成世界獨一無二的美聲涵洞曲牆建築，歷時五年時間完成、耗資43.6億元，終在2014年11月23日落成啟用，內部規劃有大劇院、中劇院及小型實驗劇場，共可容納約三千餘人。
+					圖：台中國家歌劇院白天景色
 
-				所在位置：台中市西屯區惠來路二段101號
-				</td>
-         
-  		</tr>
-  		<tr>
-  			<td>
-  				<font class="font2">臺中州廳</font><br>
-					臺中州廳位於台中市西區，為一座國定古蹟，二戰後由台中市政府遷入辦公，由於該建築原為日治時期的臺中州廳（即「州政府」），因而沿用此稱呼。周邊鄰近台中文學公園、台中刑務所演武場、宮原眼科等熱門景點。
-					圖：臺中州廳
+					所在位置：台中市西屯區惠來路二段101號
+					</td>
+	         
+	  		</tr>
+	  		<tr>
+	  			<td>
+	  				<font class="font2">臺中州廳</font><br>
+						臺中州廳位於台中市西區，為一座國定古蹟，二戰後由台中市政府遷入辦公，由於該建築原為日治時期的臺中州廳（即「州政府」），因而沿用此稱呼。周邊鄰近台中文學公園、台中刑務所演武場、宮原眼科等熱門景點。
+						圖：臺中州廳
 
-					所在位置：台中市西區民權路99號
-				</td>
+						所在位置：台中市西區民權路99號
+					</td>
 
-  			<td>
-  				<img class="img_rounded" src="02.jpeg">
-  			</td>
-  		</tr>
-  		<tr>
-  			<td><img class="img_rounded" src="03.jpeg"></td>
-  			<td>
-	  			<font class="font2">審計新村</font><br>
-					審計新村位於台中市西區，原為臺灣省政府審計處員工宿舍，在凍省之後成了閒置空間荒廢多年，近年配合台中市政府勞工局「摘星青年、築夢台中」創業基地進駐計畫，重新規劃轉型成為創業基地與文創園區。
-					圖：審計新村
+	  			<td>
+	  				<img id="s2" class="img_rounded" src="02.jpeg">
+	  			</td>
+	  		</tr>
+	  		<tr>
+	  			<td><img id="s3" class="img_rounded" src="03.jpeg"></td>
+	  			<td>
+		  			<font class="font2">審計新村</font><br>
+						審計新村位於台中市西區，原為臺灣省政府審計處員工宿舍，在凍省之後成了閒置空間荒廢多年，近年配合台中市政府勞工局「摘星青年、築夢台中」創業基地進駐計畫，重新規劃轉型成為創業基地與文創園區。
+						圖：審計新村
 
-					所在位置：台中市西區民生路368巷
-				</td>
-  		</tr>
-  		<tr>
-  			<td colspan="2">
-  			
-  			410916477 大傳4A 鄭裕霖
-  			</td>
+						所在位置：台中市西區民生路368巷
+					</td>
+	  		</tr>
+	  		<tr>
+	  			<td colspan="2">
+	  				<iframe src="https://www.google.com/maps/d/embed?mid=1YfVaI95q9wk0_oC_zawtwtY32JMCD_A&ehbc=2E312F&noprof=1" width="1024" height="800"></iframe>
+	  			</td>
+	  		<tr>
+	  			<td height="50px" bgcolor="black" colspan="2">
+	  				<font color="white">410916477 大傳4A 鄭裕霖</font>
+	  			</td>	
+	  		</tr>
 
-  			
-  		</tr>
-  	</table>	
+	  	</table>	
+  	</div>
+
 </body>
 </html>
